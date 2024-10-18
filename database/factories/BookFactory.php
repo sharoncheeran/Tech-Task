@@ -19,7 +19,7 @@ class BookFactory extends Factory
         return [
             'title' => $this->faker->text,
             'author' => $this->faker->name,
-            'rating' => $this->faker->numberBetween(1, 10), // Generate random value between 1 and 10
+            'rating' => 5,
         ];
     }
 }
